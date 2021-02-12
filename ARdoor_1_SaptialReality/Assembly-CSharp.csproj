@@ -36,8 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\OnRenderImage.cs" />
+     <Compile Include="Assets\Scripts\CameraFilter.cs" />
      <Compile Include="Assets\Scripts\Cameraspace.cs" />
      <Compile Include="Assets\Scripts\Overlay_space.cs" />
+     <None Include="Assets\Shader\PostEffect_Pixel.shader" />
+     <None Include="Assets\Shader\PostEffect_Nega.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
