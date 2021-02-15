@@ -37,11 +37,25 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\OnRenderImage.cs" />
+     <Compile Include="Assets\Scripts\CalMatrix.cs" />
      <Compile Include="Assets\Scripts\CameraFilter.cs" />
+     <Compile Include="Assets\Scripts\CameraFilter1.cs" />
+     <Compile Include="Assets\Scripts\CameraFilter_Homography.cs" />
      <Compile Include="Assets\Scripts\Cameraspace.cs" />
      <Compile Include="Assets\Scripts\Overlay_space.cs" />
-     <None Include="Assets\Shader\PostEffect_Pixel.shader" />
+     <None Include="Assets\Shader\PostEffect_gray.shader" />
+     <None Include="Assets\Shader\PostEffect_Mapping.shader" />
+     <None Include="Assets\Shader\PostEffect_Homography 1.shader" />
+     <None Include="Assets\Shader\Custumcolor.shader" />
+     <None Include="Assets\Shader\VertexNormal.shader" />
+     <None Include="Assets\Shader\MappinmgtoScreen.shader" />
+     <None Include="Assets\Shader\Transform_Vertex.shader" />
+     <None Include="Assets\Shader\PostEffect_wave.shader" />
+     <None Include="Assets\Shader\PostEffect_Pixel 1.shader" />
      <None Include="Assets\Shader\PostEffect_Nega.shader" />
+     <None Include="Assets\Shader\NewSurfaceShader.shader" />
+     <None Include="Assets\Shader\PostEffect_wave2.shader" />
+     <None Include="Assets\Shader\PostEffect_Homography.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
