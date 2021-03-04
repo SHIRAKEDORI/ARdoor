@@ -41,6 +41,8 @@
      <Compile Include="Assets\Scripts\CameraFilter.cs" />
      <Compile Include="Assets\Scripts\CameraFilter1.cs" />
      <Compile Include="Assets\Scripts\CameraFilter_Homography.cs" />
+     <Compile Include="Assets\Scripts\Camera_rotate.cs" />
+     <Compile Include="Assets\Scripts\Camera_rotate1.cs" />
      <Compile Include="Assets\Scripts\Cameraspace.cs" />
      <Compile Include="Assets\Scripts\Overlay_space.cs" />
      <None Include="Assets\Shader\PostEffect_gray.shader" />
@@ -52,6 +54,7 @@
      <None Include="Assets\Shader\Transform_Vertex.shader" />
      <None Include="Assets\Shader\PostEffect_wave.shader" />
      <None Include="Assets\Shader\PostEffect_Pixel 1.shader" />
+     <None Include="Assets\Shader\Sketch_shader.shader" />
      <None Include="Assets\Shader\PostEffect_Nega.shader" />
      <None Include="Assets\Shader\NewSurfaceShader.shader" />
      <None Include="Assets\Shader\PostEffect_wave2.shader" />
